@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Composants Web natifs with Minze</title>
+</head>
+<body>
+    <h1>Composants Web natifs with Minze</h1>
+        <!-- Accordéon -->
+        <h2>Accordéon</h2>
+            <sh-accordion>
+                <div slot="title">
+                    Statistiques
+                </div>
+                <div slot="content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, similique ! 
+                </div>
+            </sh-accordion>
+        <!-- Interrupteur -->
+        <h2>Interrupteur</h2>
+            <sh-switch>
+
+            </sh-switch>
+        <!-- Cart -->
+        <h2>Cart</h2>
+            <sh-card
+            top-line="Cryptocurrency"
+            headline="Aktio"
+            value="2,05 $US"
+            background="linear-gradient(220.64deg, #C8F5FF 0%, #B4B4FF 100%)"
+            >
+            </sh-card>
+
+    <script src="https://unpkg.com/minze@1.0.3"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
